@@ -4,7 +4,7 @@ This project explores the classification of Knee Osteoarthritis (OA) stages usin
 
 ## 📁 Repository Structure
 * **Dataset_ARFF/**: Contains processed data in .arff format for Weka analysis.
-* **ipynb_Scripts/**: Python notebooks for image pre-processing (CLAHE, ROI) and feature extraction.
+* **Python_Scripts/**: Python notebooks for image pre-processing (CLAHE, ROI) and feature extraction.
 * **Reports_and_Outputs/**: Statistical results and performance tables.
 
 ## 🔬 Methodology
