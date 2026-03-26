@@ -9,9 +9,7 @@ This project explores the classification of Knee Osteoarthritis (OA) stages usin
 
 ## 🔬 Methodology
 * **Pre-processing:** Soft ROI and CLAHE enhancement.
-* **Feature Extraction:** GLCM, LBP, FFT, and Discrete Wavelet Transform (DWT).
-* **Classifiers:** Comparative study of Random Forest, SVM, MLP, and KNN.
+* **Feature Extraction:** GLCM, LBP, FFT, HOG, Gabor and Discrete Wavelet Transform (DWT).
+* **Parameter Analysis:** Conducted detailed experiments using different GLCM displacement ($d$) values (e.g., $d=2, 16, 32, 64$) to identify the most discriminative texture scales
+* **Classifiers:** Comparative study of 7 algorithms (Random Forest, SVM, MLP, KNN(3,5), J48, Adaboost+48.)
 
-## 📊 Performance Notes
-* The project achieved a maximum accuracy of **~66%** using feature fusion and Random Forest.
-* While Kappa values are moderate, the analysis provides deep insights into the discriminative power of specific radiomic features in medical imaging.
